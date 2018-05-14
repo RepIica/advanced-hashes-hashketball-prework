@@ -172,10 +172,9 @@ def player_by_number(num) #returns player based on player number
   players.find do |player, value|
     # binding.pry
     value[:number] == num
-  end.first
+  end
 end
 
-def most_
 
 puts player_by_number(11)
 
